@@ -1,0 +1,99 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.bg-dark-custom {
+    background-color: #18181a !important;
+}
+
+.table-header-custom {
+    background-color: #ffffff !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-item .nav-link {
+    margin-right: 10px;
+}
+
+.btn-github {
+    margin-right: 10px;
+    color: white;
+    border: none !important;
+}
+
+.btn-github:hover {
+    background-color: #2a2a2a;
+    color: white;
+    text-decoration: none;
+}
+
+/* Modern button styles */
+.btn-modern {
+    border-radius: 0 !important;
+    /* Remove border-radius */
+    /* padding: 10px 15px !important; */
+    /* Adjust padding */
+    /* font-size: 14px !important; */
+    /* Font size */
+    text-transform: uppercase;
+    /* Uppercase text */
+    font-weight: 600;
+    /* Slightly bold font */
+    transition: all 0.3s ease;
+    /* Smooth transition for hover effects */
+    border: 1px solid transparent;
+    /* Remove default border */
+}
+
+.btn-modern i {
+    margin-right: 5px;
+    /* Space between icon and text */
+}
+
+/* Default button styles */
+.btn-modern:hover {
+    opacity: 0.8;
+    /* Slightly reduce opacity on hover */
+    border-color: rgba(0, 0, 0, 0.1);
+    /* Add border color on hover */
+}
+
+/* Specific button styles */
+.btn-primary.btn-modern {
+    background-color: #007bff !important;
+    /* Primary color */
+    color: #ffffff !important;
+    /* Text color */
+}
+
+.btn-secondary.btn-modern {
+    background-color: #6c757d !important;
+    /* Secondary color */
+    color: #ffffff !important;
+    /* Text color */
+}
+
+.btn-warning.btn-modern {
+    background-color: #ffc107 !important;
+    /* Warning color */
+    color: #000000 !important;
+    /* Text color */
+}
+
+.btn-success.btn-modern {
+    background-color: #28a745 !important;
+    /* Success color */
+    color: #ffffff !important;
+    /* Text color */
+}
+
+.text-info {
+    color: #39a9ff !important;
+}
