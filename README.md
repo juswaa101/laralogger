@@ -36,15 +36,19 @@ Follow these steps to install and configure Laralogger:
    ```bash
    composer install
    ```
-4. **Generate Application Key**
+4. **Duplicate .env.example to .env and configure your database and other settings.**
+   ```bash
+   cp .env .env.example
+
+5. **Generate Application Key**
    ```bash
    php artisan key:generate
    ```
-5. **Run Migrations (if applicable)**
+6. **Run Migrations (if applicable)**
    ```bash
    php artisan migrate
    ```
-6. **Redirect to Landing Page**
+7. **Redirect to Landing Page**
    ```bash
    http://localhost:8000/
    ```
@@ -52,7 +56,7 @@ Follow these steps to install and configure Laralogger:
    ```bash
    http://127.0.0.1:8000/
    ```
-7. **Enjoy!**
+8. **Enjoy!**
 
 ## Contact
 For questions or support, please contact:
